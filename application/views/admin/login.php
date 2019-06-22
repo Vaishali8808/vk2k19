@@ -31,7 +31,7 @@ include('header.php');
 <?php echo form_error('password'); ?>
 </div>
 </div>
-    <?php echo form_submit(['class'=>'btn btn-success mt-2',
+     <?php echo form_submit(['class'=>'btn btn-success mt-2',
     'type'=>'submit','value'=>'
     Submit']);?>
      <?php echo form_reset(['class'=>'btn btn-danger mt-2',
