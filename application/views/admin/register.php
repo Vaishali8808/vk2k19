@@ -5,7 +5,8 @@ include('header.php');
 <h1>
     Register Form
 </h1>
-        <?php echo form_open('admin/sendmail');?>
+         
+        echo form_open('admin/sendmail');?>
         <div class="row">
             <div class="col-lg-6">
             <div class="form-group">
